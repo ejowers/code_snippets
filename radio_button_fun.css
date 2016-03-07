@@ -1,0 +1,15 @@
+input[type="radio"] {
+    display:none;
+}
+input[type="radio"] + label {
+    padding: 5px;
+    margin: 5px;
+    border: 1px solid orange;
+    cursor:pointer;
+}
+input[type="radio"] + label:hover {
+    background-color: orange;
+}
+input[type="radio"]:checked + label {
+    background-color: orange;
+}
